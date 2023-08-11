@@ -13,9 +13,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///movie-list.db'
 Bootstrap5(app)
 db.init_app(app)
 
-# OBSCURE %%%%%%%%%%
-tmdb_API_KEY = '64f355bbf7275eb62c68679d12f273f6'
-tmdb_ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NGYzNTViYmY3Mjc1ZWI2MmM2ODY3OWQxMmYyNzNmNiIsInN1YiI6IjY0ZDI5OGE1OTQ1ZDM2MDBlMjY3N2IzMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.wSh_3zntiLWOmIYFNIKBOjN1ZIqGtPnqa5cUapFD1fk'
+tmdb_ACCESS_TOKEN = '*** INCLUDE YOUR OWN ACCESS TOKEN HERE ***'
 
 url_tmdb_search = 'https://api.themoviedb.org/3/search/movie'
 url_tmdb_find_by_id = 'https://api.themoviedb.org/3/movie/'
