@@ -29,7 +29,7 @@
    git clone https://github.com/LanoCodes/Movie-List-and-Database.git
     ```
 5. I used PyCharm, but using your preferred IDE, open the MovieList project
-6. There are some prequisites to actually running the project!:
+6. There are some prerequisites to actually running the project!:
    1. First you'll need to make sure that the all the requirements have been downloaded
    2. You'll then need to head over to The Movie Database to sign up for a free account
       1. Then, head to Settings-API and get an API-Key
